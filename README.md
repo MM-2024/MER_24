@@ -60,7 +60,7 @@ to-be-fill
 https://paperswithcode.com/task/automatic-speech-recognition &
 https://paperswithcode.com/task/automatic-speech-recognition-2
 
-评价指标： WERs (word error rates) or CER (character error rates) 对于中文来说，通常的CER都会比WER的表现好上非常多，甚至可能会出现CER 10，WER 80的情况[cite}(https://paperswithcode.com/sota/speech-recognition-on-common-voice-chinese-2)
+评价指标： WERs (word error rates) or CER (character error rates) 对于中文来说，通常的CER都会比WER的表现好上非常多，甚至可能会出现CER 10，WER 80的情况[cite](https://paperswithcode.com/sota/speech-recognition-on-common-voice-chinese-2)
 
 数据集：Common Voice 15, Fleurs datasets, AISHELL-1(普通话语音识别数据集)
 
