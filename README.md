@@ -64,7 +64,7 @@ https://paperswithcode.com/task/automatic-speech-recognition-2
 
 数据集：Common Voice 15, Fleurs datasets, AISHELL-1(普通话语音识别数据集)
 
-参考：https://github.com/modelscope/FunASR/blob/main/README_zh.md(一个集合多个ASR工具的包）
+参考：https://github.com/modelscope/FunASR/blob/main/README_zh.md (一个集合多个ASR工具的包）
 
 对于AISHELL-1数据集, Qwen-audio模型表现最好, [参考](https://paperswithcode.com/sota/speech-recognition-on-aishell-1)
 
