@@ -24,6 +24,8 @@ offical web：https://zeroqiaoba.github.io/MER2024-website/
 
 ![image](https://github.com/MM-2024/MER_24/assets/156440850/484f0f28-ab9e-42ae-960f-f39f22be93a3)
 
+
+
 解读：weighted-f1考虑了不同类别的重要性，也就是把每个类别的样本数量作为权重，计算加权f1。
 
 
