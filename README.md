@@ -8,7 +8,7 @@ Lead Researcher：李佳
 ## Track1 MER-SEMI
 成员：程浩（队长）、张龙、何艺超、韩宇、陈银、李佳
 
-Github项目地址：https://github.com/MM-2024/MER_24
+Github项目地址：https://github.com/MM-2024/MER_24 \
 offical web：https://zeroqiaoba.github.io/MER2024-website/
 
 虽然是semi为题，但是半监督和无监督方法均是可以的
@@ -124,12 +124,12 @@ https://paperswithcode.com/task/automatic-speech-recognition-2
 ## 2024-5-27周（第一周）
 ### 任务安排：
 #### 调研任务：
-1.梳理此文档
-2.阅读相关文献
+1.梳理此文档\
+2.阅读相关文献\
 3.初步调研
 #### 技术任务：
   数据预处理:
-- [ ] 取帧+crop人脸
-- [ ] 提取音频（采样率12000）
-- [ ] 转录文本（采用openai whisper）
-	复现baseline
+- [X] 取帧+crop人脸
+- [X] 提取音频（采样率12000）
+- [X] 转录文本
+- [ ] 复现baseline
