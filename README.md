@@ -17,7 +17,9 @@ offical web：https://zeroqiaoba.github.io/MER2024-website/
 
 # 时间节点和注意事项
 *注意！！！后期结果提交在官网，论文提交地址不在官网
+
 *注意！！！官方只要求我们提供离散分类标签的结果
+
 *注意！！！准确率被看成是认可的模型评价标准，但是最终排名的依据按照WAF为准
 
 ![image](https://github.com/MM-2024/MER_24/assets/156440850/484f0f28-ab9e-42ae-960f-f39f22be93a3)
