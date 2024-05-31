@@ -9,14 +9,38 @@ Lead Researcher：李佳
 成员：程浩（队长）、张龙、何艺超、韩宇、陈银、李佳
 
 Github项目地址：https://github.com/MM-2024/MER_24
+offical web：https://zeroqiaoba.github.io/MER2024-website/
+
+虽然是semi为题，但是半监督和无监督方法均是可以的
+
+
 
 # 时间节点和注意事项
-to-be-fill
+*注意！！！后期结果提交在官网，论文提交地址不在官网
+*注意！！！官方只要求我们提供离散分类标签的结果
+*注意！！！准确率被看成是认可的模型评价标准，但是最终排名的依据按照WAF为准
+![image](https://github.com/MM-2024/MER_24/assets/156440850/484f0f28-ab9e-42ae-960f-f39f22be93a3)
+解读：weighted-f1考虑了不同类别的重要性，也就是把每个类别的样本数量作为权重，计算加权f1。
 
-# 结果提交
-to-be-fill
 
-# 论文提交
+2024.4.30:[基线论文](https://arxiv.org/abs/2404.17113)、[代码](https://github.com/zeroQiaoba/MERTools/tree/master/MER2024)发布
+
+2024/6/30-2024/7/10：结果提交时间，结果在官网提交，目前link is coming soon
+![image](https://github.com/MM-2024/MER_24/assets/156440850/4230d6ff-ae65-4623-83f2-d0547296ab78)
+
+2024/6/30-2024/7/20：论文提交时间，论文官网给出了提交地址：https://cmt3.research.microsoft.com/MRAC2024
+![image](https://github.com/MM-2024/MER_24/assets/156440850/26015b02-d4a9-4ec2-9ce8-9a8cdd969df0)
+*注意：论文以pdf格式提交，官方给了latex模板，模板下载链接：https://2024.acmmm.org/files/ACM-MM24-paper-templates.zip，打开后有如下文件
+![image](https://github.com/MM-2024/MER_24/assets/156440850/47d5032f-342d-41b6-a7bf-06ca97600425)
+*注意：论文篇幅有限制，4页正文+1页参考文献  or  8页正文+2页参考文献
+
+2024/8/5：论文接收通告
+
+2024/8/18：终稿提交截止日期
+
+2024/10/28：MRAC workshop
+
+
 
 # 任务总体推进情况
 ## 数据预处理
@@ -55,6 +79,14 @@ to-be-fill
 # 参考资料、开源项目及工具
 相关论文阅读之后总结一下放在这里
 按不同类型的论文分开
+offical baseline paper给出了几个参赛的指导意见：
+1.在所有模态中，声学编码器的单模态效果最好，说明MER2024中的样本主要依靠声学模态来表达情感
+2.域兼容性对视觉编码器非常重要，鼓励参赛者训练情感领域的预训练模型
+3.文本模态和语音模态的性能和语言种类息息相关，选取和数据集同种语言的预训练模型效果可能会好些
+4.通过注意力机制融合不同模态效果可能会好一些
+5.原文中的table6给出了很多不同语言下的单模态预训练模型，可以参考
+
+
 ### 转录任务
 任务称作：**Automatic Speech Recognition**
 https://paperswithcode.com/task/automatic-speech-recognition &
