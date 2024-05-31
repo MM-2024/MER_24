@@ -28,12 +28,17 @@ offical web：https://zeroqiaoba.github.io/MER2024-website/
 2024.4.30:[基线论文](https://arxiv.org/abs/2404.17113)、[代码](https://github.com/zeroQiaoba/MERTools/tree/master/MER2024)发布
 
 2024/6/30-2024/7/10：结果提交时间，结果在官网提交，目前link is coming soon
+
 ![image](https://github.com/MM-2024/MER_24/assets/156440850/4230d6ff-ae65-4623-83f2-d0547296ab78)
 
 2024/6/30-2024/7/20：论文提交时间，论文官网给出了提交地址：https://cmt3.research.microsoft.com/MRAC2024
+
 ![image](https://github.com/MM-2024/MER_24/assets/156440850/26015b02-d4a9-4ec2-9ce8-9a8cdd969df0)
+
 *注意：论文以pdf格式提交，官方给了latex模板，模板下载链接：https://2024.acmmm.org/files/ACM-MM24-paper-templates.zip，打开后有如下文件
+
 ![image](https://github.com/MM-2024/MER_24/assets/156440850/47d5032f-342d-41b6-a7bf-06ca97600425)
+
 *注意：论文篇幅有限制，4页正文+1页参考文献  or  8页正文+2页参考文献
 
 2024/8/5：论文接收通告
