@@ -76,6 +76,7 @@ offical web：https://zeroqiaoba.github.io/MER2024-website/
 **数据集来源**：
 国产影视剧
 剧集分类待探究，如果都是言情肥皂剧的话可能与转录文本最相关。
+![image](https://github.com/MM-2024/MER_24/assets/90198143/258313e4-9333-409f-8688-ca52d3d96a6a)
 
 **数据集结构**:
 
