@@ -139,6 +139,10 @@ https://paperswithcode.com/task/automatic-speech-recognition-2
 #### 发现的问题汇总：
 1.数据转录的质量问题：
 - [ ] 是否解决
+（1）转录成功，但汉语以英语呈现：例如：【id：00090351】现在已经这样了，我不能什么都不做---->But it's already like this, I can't do anything right now.
+（2）转录失败，并以英语呈现：例如：【id：00038386】那我还得谢谢你啊---->I got it!
+（3）转录结果为空，例如：【id：00013481】李严将军之下----><|zh-CN|> 或者直接没有 或者其他乱码
+（4）转录成功，原视频为英语，但转录后的英语没有分词，例如：【id：00101684】instead it's about sloppiness and hearts which feel no responsibility for themselves.---->insteadit'saboutsloppinessandheartswhichfeelnoresponsibilityforthemselves.
 
 ![image](https://github.com/MM-2024/MER_24/assets/156440850/7929b87d-bc97-4ebd-a604-4445e913f6af)
 
