@@ -148,6 +148,8 @@ https://paperswithcode.com/task/automatic-speech-recognition-2
 
 （4）转录成功，原视频为英语，但转录后的英语没有分词，例如：【id：00101684】instead it's about sloppiness and hearts which feel no responsibility for themselves.---->insteadit'saboutsloppinessandheartswhichfeelnoresponsibilityforthemselves.
 
+（5）视频时间问题，发现有到33分钟的视频，实际播放长度越2-3秒，例如：【id：00047271】
+
 ![image](https://github.com/MM-2024/MER_24/assets/156440850/7929b87d-bc97-4ebd-a604-4445e913f6af)
 
 *合并的数据没有问题，cuda_0下转录的数据为57795条（实际57794），cuda_1下转录的数据为57795条（实际57794），三个转录的文件中都有一个提示性的文件头，即["filename","transcription"]，所以合并的文件为115589条（实际115588），不过官方提供的unlabel数据为115595，说明有几条数据没有成功转录
