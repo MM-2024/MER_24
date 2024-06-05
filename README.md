@@ -137,6 +137,8 @@ https://paperswithcode.com/task/automatic-speech-recognition-2
 - [X] 转录文本
 - [X] 复现baseline
 
+***注意：有三个视频MTCNN无法提取人脸，导致所属的/data/public_datasets/MER_2024/mer2024-dataset-process/croped_face/labeled_croped/sample_00000074 文件夹为空，可能会导致错误***
+
 ## 2024-6-3周（第二周）
 ### 任务安排：
 - [ ] 特征融合方法（张）
