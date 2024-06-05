@@ -6,7 +6,7 @@
 
 Lead Researcher：李佳
 ## Track1 MER-SEMI
-成员：程浩（队长）、张龙、何艺超、韩宇、陈银、李佳
+成员：程浩（队长）、张龙、何艺超、韩宇、任宏哲、陈银、李佳
 
 Github项目地址：https://github.com/MM-2024/MER_24 \
 offical web：https://zeroqiaoba.github.io/MER2024-website/
