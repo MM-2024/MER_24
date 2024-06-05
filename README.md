@@ -176,8 +176,8 @@ A：据不完全调研，Qwen-Audio已经是中文ASR任务最好的模型了。
 
 
 程浩Q：（24-6-5）
-为什么去年不用clip-large做baseline？
 
+- [ ] 为什么去年不用clip-large做baseline？
 - [ ] 为什么文本部分不用clip-large？
 - [ ] 如果把videomae large在这个数据集上预训练一下，那会有什么样的效果？因为这个是作者没有做到的。
 - [ ] 特征融合上面，这个作者仅仅考虑了attention机制，那么有没有更复杂的机制？
