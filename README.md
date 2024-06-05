@@ -135,10 +135,18 @@ https://paperswithcode.com/task/automatic-speech-recognition-2
 - [X] 取帧+crop人脸
 - [X] 提取音频（采样率12000）
 - [X] 转录文本
-- [ ] 复现baseline
-#### 发现的问题汇总：
+- [X] 复现baseline
+
+## 2024-6-3周（第二周）
+### 任务安排：
+- [ ] 特征融合方法（张）
+- [ ] 转录质量研究（何、韩）
+- [ ] T、V 的特征工程（程）
+
+### 发现的问题汇总：
 1.数据转录的质量问题：
-- [ ] 是否解决
+- [X] 是否解决？
+A：据不完全调研，Qwen-Audio已经是中文ASR任务最好的模型了。这种质量的话
 
 （1）转录成功，但汉语以英语呈现：例如：【id：00090351】现在已经这样了，我不能什么都不做---->But it's already like this, I can't do anything right now.
 
@@ -159,3 +167,26 @@ https://paperswithcode.com/task/automatic-speech-recognition-2
 ![image](https://github.com/MM-2024/MER_24/assets/156440850/8c98c635-db36-4719-8e25-fe05685c2416)
 
 ![image](https://github.com/MM-2024/MER_24/assets/156440850/791d9600-0fe7-4373-89f2-d58261695616)
+
+
+# 可行思路和验证结论：
+
+（按时间排序，留下姓名）
+程浩Q：
+
+
+程浩Q：（24-6-5）
+为什么去年不用clip-large做baseline？
+
+- [ ] 为什么文本部分不用clip-large？
+- [ ] 如果把videomae large在这个数据集上预训练一下，那会有什么样的效果？因为这个是作者没有做到的。
+- [ ] 特征融合上面，这个作者仅仅考虑了attention机制，那么有没有更复杂的机制？
+- [ ] 看一下baseline怎么用whisper提取音频特征的，我准备用qwenaudio提取音频特征. 但是whisper的要比hubert的低十几个点. 不知道有没有必要
+- [ ] 非常有可能hubert已经把音频这东西刷满了, 那我们就不需要管音频部分怎么怎么样了, 我们只需要聚焦于另外两个模态了。**但是WavLM-Plus 这个模型仍然值得尝试**
+
+> 似乎利用baseline在用clip-large的时候，并没有考虑时序关系 https://chatgpt.com/share/6b3d1d3b-c1f9-425a-be91-70286586dfc5
+
+> 看到去年的冠军也就比baseline好了3个点, 那我们做什么才能比去年的冠军还好呢?
+> 1. 多模态大模型的运用
+> 2. 融合机制
+> 3. 伪标签(去年冠亚的共性), 可能也是一种好的半监督方法
