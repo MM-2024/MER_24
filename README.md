@@ -146,7 +146,7 @@ https://paperswithcode.com/task/automatic-speech-recognition-2
 ### 发现的问题汇总：
 1.数据转录的质量问题：
 - [X] 是否解决？
-A：据不完全调研，Qwen-Audio已经是中文ASR任务最好的模型了。这种质量的话
+A：据不完全调研，Qwen-Audio已经是中文ASR任务最好的模型了。这种质量的话也没办法。。。（考虑抛弃文本模型）
 
 （1）转录成功，但汉语以英语呈现：例如：【id：00090351】现在已经这样了，我不能什么都不做---->But it's already like this, I can't do anything right now.
 
