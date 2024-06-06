@@ -1,4 +1,4 @@
-![image](https://github.com/MM-2024/MER_24/assets/156440850/95386ef7-a446-4aca-a18b-1708655addda)# MER_24
+# MER_24
 
 # MER 2024 竞赛概况
 
