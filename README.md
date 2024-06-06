@@ -164,7 +164,7 @@ A：据不完全调研，Qwen-Audio已经是中文ASR任务最好的模型了。
 
 （4）转录成功，原视频为英语，但转录后的英语没有分词，例如：【id：00101684】instead it's about sloppiness and hearts which feel no responsibility for themselves.---->insteadit'saboutsloppinessandheartswhichfeelnoresponsibilityforthemselves.
 
-（5）视频时间问题，发现有到33分钟的视频，实际播放长度越2-3秒，例如：【id：00047271】
+（5）视频时间问题，发现有到33小时的视频，实际播放长度越2-3秒，例如：【id：00047271】
 
 ![image](https://github.com/MM-2024/MER_24/assets/156440850/7929b87d-bc97-4ebd-a604-4445e913f6af)
 
