@@ -10,6 +10,7 @@ Lead Researcher：李佳\
 成员：程浩（队长）、张龙、何艺超、韩宇、任宏哲、陈银
 
 Github项目地址：https://github.com/MM-2024/MER_24 \
+code地址：https://github.com/MM-2024/MER_code \
 offical web：https://zeroqiaoba.github.io/MER2024-website/
 
 虽然是semi为题，但是半监督和无监督方法均是可以的
