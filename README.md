@@ -197,6 +197,7 @@ A：据不完全调研，Qwen-Audio已经是中文ASR任务最好的模型了。
 - [ ] 特征融合上面，这个作者仅仅考虑了attention机制，那么有没有更复杂的机制？
 - [ ] 看一下baseline怎么用whisper提取音频特征的，我准备用qwenaudio提取音频特征. 但是whisper的要比hubert的低十几个点. 不知道有没有必要
 - [ ] 非常有可能hubert已经把音频这东西刷满了, 那我们就不需要管音频部分怎么怎么样了, 我们只需要聚焦于另外两个模态了。**但是WavLM-Plus 这个模型仍然值得尝试**
+> 何艺超（24-6-19）：又重新理解了一下上次讨论的baseline的组合不同模态topk模型那个表的含义，top1指的是每个单模态最好的模型拿来融合，top2指的是每个模态第二拿来融合（之前比较疑问的点是为什么要有这个表，为什么不拿第一名v+第二名a这种组合，而要都选择top2，或是top3），因为最终结果最好的不是都拿top1的融合，所以感觉作者想说明的是，即使拿每个模态表现最好的模型，也有可能因为不同模型之间提取特征的gap，在融合阶段没有做到很好的特征互补甚至成为了噪声，从而导致最后的结果不好，所以如何选择特征互补最好的模型，可能需要做不少实验。
 
 > 似乎利用baseline在用clip-large的时候，并没有考虑时序关系 https://chatgpt.com/share/6b3d1d3b-c1f9-425a-be91-70286586dfc5
 
@@ -216,6 +217,18 @@ A：据不完全调研，Qwen-Audio已经是中文ASR任务最好的模型了。
 > 2.人工转录后，将剩余的850条转录为英文的数据，记录视频id，与之前的qwen-audio转录的结果进行比对，找到qwen-audio成功转录为汉语的视频id，并替换。
 > 
 > *针对视频中无人声的数据，暂时没有好的办法处理，并且视频本身在数据集中就是噪声的存在。
+
+何艺超：（24-6-19）
+
+- [ ] 找找有没有在人脸训练数据上多一些的多模态大模型？
+
+> 将videollama2在训练集5000个数据上zreoshot，发现对于人脸表情的识别准确率堪忧
+> 
+> 当prompt为：Choose the most likely expression from the following 6: neutral, angry, sad, happy, worried, surprise时，与gt相比，准确率只有30%（于是更换prompt）
+> 
+> 然后更换prompt：You are given a video clip with both visual and audio components. Your task is to analyze the facial expressions and the tone of voice of the individuals in the video. Based on this analysis, you should choose the most appropriate emotion from the following list to describe the overall mood conveyed by the individuals in the video: neutral, angry, sad, happy, worried, or surprised. Focus on both facial expressions and vocal tones to make your decision.此时生成的描述较长，除了有overall情感，还有从声音角度和个人角度单独给的情感。以overall分类为准，top3准确率为48%，top1准确率为44%
+>
+> 在识别过程中：发现有大模型无法判断的例子（167个）：返回的描述约为"i'm sorry, but i cannot provide a description of the emotions conveyed by the individuals in the video as there is no visual or audio content provided. please provide the necessary information for me to complete the task."
 
 
 
