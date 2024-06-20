@@ -7,7 +7,7 @@
 
 ## MER-SEMI
 Lead Researcher：李佳\
-成员：程浩（队长）、张龙、何艺超、韩宇、任宏哲、陈银
+成员：程浩（队长）、张龙、何艺超、龚子健、韩宇、任宏哲、陈银
 
 Github项目地址：https://github.com/MM-2024/MER_24 \
 code地址：https://github.com/MM-2024/MER_code \
@@ -188,7 +188,9 @@ A：据不完全调研，Qwen-Audio已经是中文ASR任务最好的模型了。
 - [ ] 文本上面,试一下clip-large的特征效果
 - [ ] 音频部分, 把WavLM-Plus模型加入
 - [ ] VideoLlama2 的zeroshot (何)
-- [ ] 
+- [ ] 部分视频无法提取音频,导致特征丢失 (韩)
+- [ ] baseline的某些特征的提取
+- [ ] macbert的文本特征 (龚)
 
 # 可行思路和验证结论：
 
