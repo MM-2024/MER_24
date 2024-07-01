@@ -86,6 +86,19 @@ offical web：https://zeroqiaoba.github.io/MER2024-website/
 
 **数据集注释特点**:
 
+## 其他数据集
+- mafw数据集地址：/data/public_datasets/MAFW/
+	-  audio：./audio
+	-  face_frames:  ./data/frames/frames_crop_align
+	-  label: ./anno/single/no_caption
+-  dfew数据集地址：/data/public_datasets/DFEW/
+	-  audio: ./audio/audio
+	-  face_frames: ./Clip/clip_224x224_16f
+	-  label:./Annotation
+-  ferv39k数据集地址：/data/public_datasets/FERV39K/
+	-  face_frames: ./2_ClipsforFaceCrop
+	-  label：./Annotation
+	-  no audio
 
 # 目前技术方案和验证结论
 三个初步的想法（待验证）:
